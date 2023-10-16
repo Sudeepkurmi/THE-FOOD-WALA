@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Skranji", cursive;
+}
+.container {
+  background-color: black;
+  overflow: auto;
+}
+.logo p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  float: left;
+  padding: 10px;
+}
+nav {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+ul li a {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: orange;
+}
+.welcome-container {
+  position: relative;
+}
+.welcome-container img {
+  width: 100%;
+  height: 500px;
+}
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-container{
+ text-align: center;
+ margin-top: 20px;
+}
+.about-container p{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.mainmenu{
+display: table;
+margin: 20px;
+}
+
+.menuitem{
+  float: right;
+  width: 20%;
+  padding: 25px;
+  margin-bottom: 10%;
+  height: 300px;
+}
+
+.menubox{
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 0 8px 32px 0 rgba(31,38, 135,0.7);
+  border-radius: 10px;
+  bottom: 20px;
+}
+.menubox img{
+ width: 100%; 
+}
+/* .fa-solid{
+  border-left: 10px;
+} */
